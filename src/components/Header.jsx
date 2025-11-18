@@ -8,13 +8,13 @@ export default function Header() {
           <Calendar className="w-6 h-6 text-white" />
         </div>
         <div>
-          <h1 className="text-xl font-bold text-white leading-tight">Unified Calendar</h1>
-          <p className="text-xs text-blue-200/80 -mt-0.5">Connect OTAs • View • Automate</p>
+          <h1 className="text-xl font-bold text-white leading-tight">Flow</h1>
+          <p className="text-xs text-blue-200/80 -mt-0.5">Manage listings • Connect OTAs • Sync & Automate</p>
         </div>
       </div>
       <div className="hidden sm:flex items-center gap-2 text-blue-200/80 text-xs">
         <LinkIcon className="w-4 h-4" />
-        <span>Google Sheets & WhatsApp automation</span>
+        <span>Google Sheets & WhatsApp Business automation</span>
         <Send className="w-4 h-4" />
       </div>
     </header>
